@@ -7,7 +7,7 @@
   const bookList = document.getElementById('book-list');
 
   btn.addEventListener('click',function(e){
-        e.preventDefault();
+        // e.preventDefault();
     const title = titleInput.value.trim();
     const author = authorInput.value.trim();
     const isbn = isbnInput.value.trim();

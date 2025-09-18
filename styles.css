@@ -1,5 +1,4 @@
-/*  your css code here. If applicable */
- <style>
+
       html {
         margin: 0;
         height: 100vh;
@@ -14,9 +13,4 @@
       h1 {
         font-weight: lighter;
       }
-      .container>h1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-    </style>
+     
