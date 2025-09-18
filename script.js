@@ -8,9 +8,9 @@
 
   btn.addEventListener('click',function(e){
         // e.preventDefault();
-    const title = titleInput.value.trim();
-    const author = authorInput.value.trim();
-    const isbn = isbnInput.value.trim();
+    const title = titleInput.value;
+    const author = authorInput.value;
+    const isbn = isbnInput.value;
     if(!title||!author||!isbn){
        alert('Please fill in all fields.');
        return;
