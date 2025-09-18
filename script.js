@@ -1,5 +1,5 @@
 //your JS code here. If required.
-document.addEventListener('DOMContentLoaded',function(){
+
   const titleInput = document.getElementById('title');
   const authorInput = document.getElementById('author');
   const isbnInput = document.getElementById('isbn');
@@ -35,4 +35,3 @@ document.addEventListener('DOMContentLoaded',function(){
     })
 
   })
-})
